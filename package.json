@@ -1,9 +1,9 @@
 {
-  "name": "tellimer-tech-radar",
-  "version": "2021.5.16",
+  "name": "@peacock/frontend-tech-radar",
+  "version": "2024.7.10",
   "description": "Visualizing our technology choices",
-  "homepage": "https://github.com/zalando/tech-radar#readme",
-  "repository": "https://github.com/zalando/tech-radar.git",
+  "homepage": "https://github.com/Peacock-App/frontend-tech-radar#readme",
+  "repository": "https://github.com/Peacock-App/frontend-tech-radar.git",
   "license": "MIT",
   "directories": {
     "doc": "docs"
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "browser-sync docs -w",
-    "lint": "npm run lint:js",
+    "lint": "pnpm run lint:js",
     "lint:js": "eslint docs/*.js"
   }
 }
