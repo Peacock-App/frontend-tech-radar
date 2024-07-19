@@ -1,6 +1,6 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
+At [Peacock](https://peacock.io), we maintain a [public Tech
 Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
@@ -71,16 +71,16 @@ Radar](http://zalando.github.io/tech-radar/).
 
 ## Local Development
 
-1. install dependencies with yarn (or npm):
+1. install dependencies with pnpm (or npm):
 
 ```
-yarn 
+pnpm i 
 ```
 
 2. start local dev server:
 
 ```
-yarn start
+pnpm start
 ```
 
 3. your default browser should automatically open and show the url
